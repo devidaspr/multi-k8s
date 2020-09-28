@@ -1,0 +1,21 @@
+{
+  "name": "javascript_postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon",
+    "start": "node index.js"
+  },
+  "author": "devidasp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.3",
+    "redis": "2.8.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.0",
+    "body-parser": "*"
+  }
+}
